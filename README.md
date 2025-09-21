@@ -208,13 +208,9 @@ PY
 
 Si vous souhaitez forcer le même nombre que l'index, on peut bâtir le listing depuis sports_index (IDs connus) et remplir les noms dès qu'ils arrivent. Dites-moi si vous voulez cette variante.
 
-## 8) Limitations & bonnes pratiques
 
-- Respectez les CGU de Winamax. Ce projet est pour usage interne/technique
-- Ne marteler ni l'HTTP ni le WS (la V3 est légère, évitez les runs en boucle très serrée)
-- Les IDs/mappings de marchés proviennent de l'observation ; Winamax peut les faire évoluer (V3 est faite pour être facilement ajustable)
 
-## 9) Dépannage
+## 8) Dépannage
 
 **"Moneyline absente, fichier non écrit"**
 - Allongez `--initial-ms` et `--moneyline-timeout-ms`, ou relancez plus tard
@@ -230,7 +226,7 @@ Si vous souhaitez forcer le même nombre que l'index, on peut bâtir le listing 
 - Vérifiez que l'ID est correct et présent dans `winamax_matches.json`
 - Essayez de coter un autre match pour confirmer que tout fonctionne
 
-## 10) Résumé de ce que l'on récupère actuellement
+## 9) Résumé de ce que l'on récupère actuellement
 
 **Listing multi-sports** (foot, basket, hockey, tennis) avec :
 - matchId, sportId, league, home, away, matchStart
@@ -240,7 +236,7 @@ Si vous souhaitez forcer le même nombre que l'index, on peut bâtir le listing 
 
 **Fichiers JSON** prêts à consommer par votre bot (ou à versionner)
 
-## 11) Commandes "prêtes à copier"
+## 10) Commandes "prêtes à copier"
 
 ```bash
 # Snapshot complet avec délais confortables
