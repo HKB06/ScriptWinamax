@@ -1,0 +1,62 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*~
+
+# --- Playwright outputs (if any) ---
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+traces/
+videos/
+screenshots/
+
+# --- Project outputs (generated JSON) ---
+_captures/
+winamax_matches.json
+odds_*.json
+
+# --- Env/config secrets ---
+.env
+.env.*
